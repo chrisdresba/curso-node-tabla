@@ -1,4 +1,4 @@
-# curso-node
+# Curso NodeJs
 # Tabla de multiplicar
 
 # Prácticas de mi primer programa en NodeJs, aquí dejo sus opciones:
