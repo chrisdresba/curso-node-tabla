@@ -1,7 +1,7 @@
 const fs = require("fs");
 const colors = require("colors");
 
-const crearArchivo = (base = 5, listar = false, hasta = 10) => {
+const createFile = (base = 5, listar = false, hasta = 10) => {
   return new Promise((resolve, reject) => {
     try {
       let salida = "";
@@ -31,5 +31,5 @@ const crearArchivo = (base = 5, listar = false, hasta = 10) => {
 };
 
 module.exports = {
-  crearArchivo: crearArchivo,
+  createFile,
 };
